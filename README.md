@@ -24,39 +24,39 @@ it is based pure css, js, and supported with jquery.
   * in this code I'm using `horizontal-btm.css` so I name the class `horizontal-btm` too.
 
       * Example:
-        ```html
-        <ul id="awb-item-container" class="horizontal-btm">
-            <a id="show-item" href="#"><li class="awb-primary-item"><i class="fa fa-plus fa-lg awb-icon-white"></i></li></a>
-          <li class="awb-item-1 awb-tooltip">
-            <a href="#home">
-              <i class="fa fa-home fa-lg awb-icon-white"></i>
-            </a>
-          </li>
-          <li class="awb-item-2">
-            <a href="#contact">
-              <i class="fa fa-user fa-lg awb-icon-white"></i>
-            </a>
-          </li>
-          <li class="awb-item-3">
-            <a href="#pdf">
-              <i class="fa fa-book fa-lg awb-icon-white"></i>
-            </a>
-          </li>
-          <li class="awb-item-4">
-            <a href="#close">
-              <i class="fa fa-close fa-lg awb-icon-white"></i>
-            </a>
-          </li>
-          <li class="awb-item-5">
-            <a href="#thumbnail">
-              <i class="fa fa-list fa-lg awb-icon-white"></i>
-            </a>
-          </li>
-          <li class="awb-item-6">
-            <a href="#Like Us!">
-              <i class="fa fa-thumbs-o-up fa-lg awb-icon-white"></i>
-            </a>
-          </li>
-        </ul>
-        ```
+```html
+<ul id="awb-item-container" class="horizontal-btm">
+    <a id="show-item" href="#"><li class="awb-primary-item"><i class="fa fa-plus fa-lg awb-icon-white"></i></li></a>
+  <li class="awb-item-1 awb-tooltip">
+    <a href="#home">
+      <i class="fa fa-home fa-lg awb-icon-white"></i>
+    </a>
+  </li>
+  <li class="awb-item-2">
+    <a href="#contact">
+      <i class="fa fa-user fa-lg awb-icon-white"></i>
+    </a>
+  </li>
+  <li class="awb-item-3">
+    <a href="#pdf">
+      <i class="fa fa-book fa-lg awb-icon-white"></i>
+    </a>
+  </li>
+  <li class="awb-item-4">
+    <a href="#close">
+      <i class="fa fa-close fa-lg awb-icon-white"></i>
+    </a>
+  </li>
+  <li class="awb-item-5">
+    <a href="#thumbnail">
+      <i class="fa fa-list fa-lg awb-icon-white"></i>
+    </a>
+  </li>
+  <li class="awb-item-6">
+    <a href="#Like Us!">
+      <i class="fa fa-thumbs-o-up fa-lg awb-icon-white"></i>
+    </a>
+  </li>
+</ul>
+```
 3. Have Done! With this template you can only make 6 menus maximal and 2 menus minimal.
