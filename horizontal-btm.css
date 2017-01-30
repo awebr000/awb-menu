@@ -1,0 +1,116 @@
+.horizontal-btm {
+  list-style: none;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+}
+
+#show-item {
+  -webkit-transition: all .5s ease-in-out
+}
+
+
+.awb-primary-item{
+  display: inline !important;
+  width: 50px;
+  height: 50px;
+  position: fixed !important;
+  border-radius: 50%;
+  left: 48% !important;
+  bottom: 10% !important;
+  background-color: #B2003F;
+  -webkit-transition: all .5s ease-in-out
+
+}
+.awb-primary-item.out{
+  -webkit-transform: rotate(45deg);
+}
+.awb-primary-item > i{
+  padding-top: 18px !important;
+}
+
+.horizontal-btm > li {
+  display: inline;
+  width: 50px;
+  height: 50px;
+  bottom: -20%;
+  position: fixed;
+  /*border-radius: 50%;*/
+}
+
+
+.awb-item-1{
+  background-color: red;
+  left: 15%;
+  -webkit-transition: all .5s ease-in-out
+}
+
+.awb-item-2{
+  background-color: red;
+  left: 25%;
+  -webkit-transition: all .75s ease-in-out
+}
+
+.awb-item-3{
+  background-color: red;
+  left: 35%;
+  -webkit-transition: all 1s ease-in-out
+}
+
+.awb-item-4{
+  background-color: red;
+  right: 15%;
+  -webkit-transition: all .5s ease-in-out
+}
+
+.awb-item-5{
+  background-color: red;
+  right: 25%;
+  -webkit-transition: all .75s ease-in-out
+}
+
+.awb-item-6{
+  background-color: red;
+  right: 35%;
+  -webkit-transition: all 1s ease-in-out
+}
+
+.out{
+  border-radius: 50%;
+  background-color: #E73071;
+}
+
+.out:hover{
+  transition: .5s ease;
+  background-color: #B2003F;
+}
+
+.awb-item-1.out{
+  bottom: 10%;
+}
+
+.awb-item-2.out{
+  bottom: 10%;
+}
+
+.awb-item-3.out{
+  bottom: 10%;
+}
+
+.awb-item-4.out{
+  bottom: 10%;
+}
+
+.awb-item-5.out{
+  bottom: 10%;
+}
+
+.awb-item-6.out{
+  bottom: 10%;
+}
+.awb-icon-white{
+  color: white;
+  padding-top: 16px;
+}

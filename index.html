@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>popup-menu</title>
+    <link rel="stylesheet" href="horizontal-btm.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js">
+  </script>
+  </head>
+  <body>
+    <ul class="horizontal-btm">
+      <a id="show-item" href="#"><li class="awb-primary-item"><i class="fa fa-plus fa-lg awb-icon-white"></i></li></a>
+      <li class="awb-item-1"><a href="#"><i class="fa fa-home fa-lg awb-icon-white" aria-hidden="true"></i></a></li>
+      <li class="awb-item-2"><a href=""><i class="fa fa-user fa-lg awb-icon-white" aria-hidden="true"></i></a></li>
+      <li class="awb-item-3"><a href=""><i class="fa fa-book fa-lg awb-icon-white" aria-hidden="true"></i></a></li>
+      <li class="awb-item-4"><a href=""><i class="fa fa-close fa-lg awb-icon-white" aria-hidden="true"></i></a></li>
+      <li class="awb-item-5"><a href=""><i class="fa fa-list fa-lg awb-icon-white" aria-hidden="true"></i></a></li>
+      <li class="awb-item-6"><a href=""><i class="fa fa-thumbs-o-up fa-lg awb-icon-white" aria-hidden="true"></i></a></li>
+    </ul>
+  </body>
+  <script type="text/javascript">
+    $('#show-item').on('click', function() {
+      if ($(this).hasClass('ex')) {
+        $('.horizontal-btm li').removeClass('out')
+        $(this).removeClass('ex')
+      }
+      else{
+      $('.horizontal-btm li').addClass('out')
+      $(this).addClass('ex')
+    }
+    })
+  </script>
+</html>
