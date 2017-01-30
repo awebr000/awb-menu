@@ -3,30 +3,61 @@
   <head>
     <meta charset="utf-8">
     <title>popup-menu</title>
-    <link rel="stylesheet" href="horizontal-btm.css">
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js">
-  </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="horizontal-top.css"> -->
+    <link rel="stylesheet" href="awb-menu/css/horizontal-btm.css">
+    <link rel="stylesheet" href="awb-menu/font-awesome/css/font-awesome.min.css">
+    <script src="awb-menu/js/jquery-3.1.1.min.js"></script>
   </head>
   <body>
-    <ul class="horizontal-btm">
-      <a id="show-item" href="#"><li class="awb-primary-item"><i class="fa fa-plus fa-lg awb-icon-white"></i></li></a>
-      <li class="awb-item-1"><a href="#"><i class="fa fa-home fa-lg awb-icon-white" aria-hidden="true"></i></a></li>
-      <li class="awb-item-2"><a href=""><i class="fa fa-user fa-lg awb-icon-white" aria-hidden="true"></i></a></li>
-      <li class="awb-item-3"><a href=""><i class="fa fa-book fa-lg awb-icon-white" aria-hidden="true"></i></a></li>
-      <li class="awb-item-4"><a href=""><i class="fa fa-close fa-lg awb-icon-white" aria-hidden="true"></i></a></li>
-      <li class="awb-item-5"><a href=""><i class="fa fa-list fa-lg awb-icon-white" aria-hidden="true"></i></a></li>
-      <li class="awb-item-6"><a href=""><i class="fa fa-thumbs-o-up fa-lg awb-icon-white" aria-hidden="true"></i></a></li>
+    <ul id="awb-item-container" class="horizontal-btm">
+        <a id="show-item" href="#"><li class="awb-primary-item"><i class="fa fa-plus fa-lg awb-icon-white"></i></li></a>
+      <li class="awb-item-1 awb-tooltip">
+        <a href="#home">
+          <i class="fa fa-home fa-lg awb-icon-white" aria-hidden="true"></i>
+        </a>
+        <span class="tooltiptext">Tooltip text</span>
+      </li>
+      <li class="awb-item-2 awb-tooltip">
+        <a href="#contact">
+          <i class="fa fa-user fa-lg awb-icon-white" aria-hidden="true"></i>
+        </a>
+        <span class="tooltiptext">Tooltip text</span>
+      </li>
+      <li class="awb-item-3 awb-tooltip">
+        <a href="#pdf">
+          <i class="fa fa-book fa-lg awb-icon-white" aria-hidden="true"></i>
+        </a>
+        <span class="tooltiptext">Tooltip text</span>
+      </li>
+      <li class="awb-item-4 awb-tooltip">
+        <a href="#close">
+          <i class="fa fa-close fa-lg awb-icon-white" aria-hidden="true"></i>
+        </a>
+        <span class="tooltiptext">Tooltip text</span>
+      </li>
+      <li class="awb-item-5 awb-tooltip">
+        <a href="#thumbnail">
+          <i class="fa fa-list fa-lg awb-icon-white" aria-hidden="true"></i>
+        </a>
+        <span class="tooltiptext">Tooltip text</span>
+      </li>
+      <li class="awb-item-6 awb-tooltip">
+        <a href="#Like Us!">
+          <i class="fa fa-thumbs-o-up fa-lg awb-icon-white" aria-hidden="true"></i>
+        </a>
+        <span class="tooltiptext">Tooltip text</span>
+      </li>
     </ul>
   </body>
   <script type="text/javascript">
     $('#show-item').on('click', function() {
       if ($(this).hasClass('ex')) {
-        $('.horizontal-btm li').removeClass('out')
+        $('#awb-item-container li').removeClass('out')
         $(this).removeClass('ex')
       }
       else{
-      $('.horizontal-btm li').addClass('out')
+      $('#awb-item-container li').addClass('out')
       $(this).addClass('ex')
     }
     })
