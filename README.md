@@ -7,7 +7,7 @@ it is based pure css, js, and supported with jquery.
 
 
 ##Usage:
-1. you have to add this menu requirement in your html script like usual.
+you have to add this menu requirement in your html script like usual.
    * Don't worry just 2 requirement:
       * [Jquery](https://jquery.com/)
       * [Font Awesome](http://fontawesome.io/icons/)
@@ -18,7 +18,7 @@ it is based pure css, js, and supported with jquery.
 <script src="your-folder/awb-menu/js/jquery-3.1.1.min.js"></script> Jquery
 ```
 
-2. make your menu with `<ul>` html tag like usual. But don't forget to add some id and class.
+make your menu with `<ul>` html tag like usual. But don't forget to add some id and class.
 
   * the `<ul>` tag must have `id="awb-item-container"` and give it class same as the css
   * in this code I'm using `horizontal-btm.css` so I name the class `horizontal-btm` too.
@@ -59,4 +59,4 @@ it is based pure css, js, and supported with jquery.
   </li>
 </ul>
 ```
-3. Have Done! With this template you can only make 6 menus maximal and 2 menus minimal.
+Have Done! With this template you can only make 6 menus maximal and 2 menus minimal.
