@@ -4,13 +4,15 @@
     <meta charset="utf-8">
     <title>popup-menu</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="stylesheet" href="horizontal-top.css"> -->
-    <link rel="stylesheet" href="awb-menu/css/horizontal-btm.css">
+    <!-- <link rel="stylesheet" href="awb-menu/css/horizontal-top.css"> -->
+    <!-- <link rel="stylesheet" href="awb-menu/css/vertical-left.css"> -->
+    <link rel="stylesheet" href="awb-menu/css/vertical-right.css">
+    <!-- <link rel="stylesheet" href="awb-menu/css/horizontal-btm.css"> -->
     <link rel="stylesheet" href="awb-menu/font-awesome/css/font-awesome.min.css">
     <script src="awb-menu/js/jquery-3.1.1.min.js"></script>
   </head>
   <body>
-    <ul id="awb-item-container" class="horizontal-btm">
+    <ul id="awb-item-container" class="vertical-right">
         <a id="show-item" href="#"><li class="awb-primary-item"><i class="fa fa-plus fa-lg awb-icon-white"></i></li></a>
       <li class="awb-item-1 awb-tooltip">
         <a href="#home">
@@ -50,16 +52,5 @@
       </li>
     </ul>
   </body>
-  <script type="text/javascript">
-    $('#show-item').on('click', function() {
-      if ($(this).hasClass('ex')) {
-        $('#awb-item-container li').removeClass('out')
-        $(this).removeClass('ex')
-      }
-      else{
-      $('#awb-item-container li').addClass('out')
-      $(this).addClass('ex')
-    }
-    })
-  </script>
+  <script src="awb-menu/js/awb-menu.js" charset="utf-8"></script>
 </html>
