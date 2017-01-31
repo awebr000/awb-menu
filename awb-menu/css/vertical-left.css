@@ -42,7 +42,6 @@
 
 .awb-item-1{
   top: 10%;
-  -webkit-transition: all .5s ease-in-out
 }
 
 .awb-item-2{
@@ -120,10 +119,10 @@
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
-    bottom: 100%;
-    left: 50%;
-    margin-bottom: 7px;
-    margin-left: -60px;
+    left: 100%;
+    bottom: 20%;
+    margin-right: -60px;
+    margin-left: 10px;
 }
 
 .awb-tooltip:hover .tooltiptext {
@@ -133,11 +132,11 @@
 .tooltiptext::after {
     content: " ";
     position: absolute;
-    top: 100%; /* At the bottom of the tooltip */
-    left: 50%;
+    right: 100%; /* At the right of the tooltip */
+    bottom: 40%;
     border-top: 5px solid black;
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
-    margin-left: -5px;
+    margin-right: -5px;
     border-width: 5px;
 }
