@@ -37,49 +37,44 @@
   height: 50px;
   bottom: -20%;
   position: fixed;
+  background-color: #084E83;
   /*border-radius: 50%;*/
 }
 
 
 .awb-item-1{
-  background-color: #084E83;
   left: 15%;
   -webkit-transition: all .5s ease-in-out
 }
 
 .awb-item-2{
-  background-color: #084E83;
   left: 25%;
   -webkit-transition: all .75s ease-in-out
 }
 
 .awb-item-3{
-  background-color: #084E83;
   left: 35%;
   -webkit-transition: all 1s ease-in-out
 }
 
 .awb-item-4{
-  background-color: #084E83;
   right: 15%;
   -webkit-transition: all .5s ease-in-out
 }
 
 .awb-item-5{
-  background-color: #084E83;
   right: 25%;
   -webkit-transition: all .75s ease-in-out
 }
 
 .awb-item-6{
-  background-color: #084E83;
   right: 35%;
   -webkit-transition: all 1s ease-in-out
 }
 
 .out{
   border-radius: 50%;
-  background-color: #E73071;
+  background-color: #E73071 !important;
 }
 
 .out:hover{
