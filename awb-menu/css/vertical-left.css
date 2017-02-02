@@ -20,11 +20,27 @@
   left: 3% !important;
   bottom: 46% !important;
   background-color: #B2003F;
-  -webkit-transition: all .5s ease-in-out
-
+  -webkit-transition: all .5s ease-in-out;
 }
+.awb-primary-item:hover{
+    transition: all .2s ease;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow:2px 2px 1px black;
+    background-color: #EC548A !important;
+}
+
 .awb-primary-item.out{
   -webkit-transform: rotate(45deg);
+}
+.awb-primary-item.out:hover{
+  transition: all .2s ease;
+    -webkit-transform: rotate(45deg) scale(1.1);
+    -ms-transform: rotate(45deg) scale(1.1);
+    transform: rotate(45deg) scale(1.1);
+    box-shadow:2px 1px 1px black;
+    background-color: #EC548A !important;
 }
 .awb-primary-item > i{
   padding-top: 18px !important;
@@ -42,6 +58,7 @@
 
 .awb-item-1{
   top: 10%;
+  -webkit-transition: all .5s ease-in-out
 }
 
 .awb-item-2{
@@ -74,10 +91,6 @@
   background-color: #E73071 !important;
 }
 
-.out:hover{
-  transition: .5s ease;
-  background-color: #B2003F;
-}
 
 .awb-item-1.out{
   left: 3%;
@@ -132,11 +145,21 @@
 .tooltiptext::after {
     content: " ";
     position: absolute;
-    right: 100%; /* At the right of the tooltip */
+    right: 100%; /* At the left of the tooltip */
     bottom: 40%;
-    border-top: 5px solid black;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    margin-right: -5px;
+    border-top: 5px solid transparent;
+    border-right: 5px solid black;
+    border-bottom: 5px solid transparent;
+    margin-left: 5px;
     border-width: 5px;
+}
+
+/*animation*/
+.vertical-left > li:hover{
+  transition: all .2s ease;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow:2px 2px 1px black;
+    background-color: #EC548A !important;
 }
